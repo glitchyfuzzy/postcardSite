@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(247, 156, 214);
+}
+
+.icon {
+    padding-top: 15%;
+    height: 130px;
+}
+
+.icon + .icon {
+    margin-left: 15%;
+}
+
+.icon:hover {
+    cursor: pointer; 
+    opacity: 0.5; 
+}
