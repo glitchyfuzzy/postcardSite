@@ -1,6 +1,43 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+  
+
 body {
     background-color: rgb(247, 156, 214);
 }
+
+.window {
+    position: absolute;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid;
+    width: 20%;
+    padding: 30 px;
+    margin: 15px;
+    display: none;
+  }
+  
+
+.handle {
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+
+.handle img {
+    display: flex;
+    width: 15px;
+    height: auto;
+    justify-content: flex-end;
+    padding: 15px;
+  }
+  
+  .close {
+    cursor: pointer;
+  }
 
 .icon {
     padding-top: 15%;

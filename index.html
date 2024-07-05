@@ -5,24 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hi [name] :D</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
 </head>
 <body>
 
     <div class="icons-container">
-        <img src="text.png" class="icon" id="hi-icon" onclick="">
-        <img src="folder.png" class="icon" id="meme-folder" onclick="">
-        <img src="message.png" class="icon" id="message-button" onclick="">
-        <img src="movie.png" class="icon" id="suprise-video" onclick="">
+        <img src="text.png" class="icon" id="hi-icon">
+        <img src="folder.png" class="icon" id="folder">
+        <img src="message.png" class="icon" id="message-button">
+        <img src="surprise.png" class="icon" id="surprise-icon">
     </div>
 
-    <div class="hi-txt-window" display="none"></div>
+    <div class="window" id="hi-txt-window">
+        <div class="handle">
+            <img class="close" id="hi-close" src="x.png">
+        </div>
+        <p>heartfelt message here <br> yap yap yap yap <br> yap yap yap yap</p>
+    </div>
 
-    <div class="folder-window" display="none"></div>
+    <div class="window" id="file-select">
+        <div class="handle">
+            <img class="close" id="file-select-close" src="x.png">
+        </div>
+    </div>
 
-    <div class="message-window" display="none"></div>
+    <div class="window" id="leave-message">
+        <div class="handle">
+            <img class="close" id="leave-message-close" src="x.png">
+        </div>
+    </div>
 
-    <div class="movie-window" display="none"></div>
+    <div class="window" id="surprise-window">
+        <div class="handle">
+            <img class="close" id="surprise-close" src="x.png">
+        </div>
+    </div>
 
+    <script src="script.js"></script>
 </body>
 </html>
