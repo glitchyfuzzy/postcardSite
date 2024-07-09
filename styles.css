@@ -56,11 +56,11 @@ body {
   padding: 30px;
 }
 
-.file-preview-img {
+#file-preview-img {
  padding: 20px;
 }
 
-.file-preview-img:hover {
+#file-preview-img:hover {
   cursor: pointer;
   opacity: 0.5;
  }

@@ -10,6 +10,10 @@ const leaveMessageClose = document.querySelector("#leave-message-close");
 const surpriseScreen = document.querySelector("#surprise-window")
 const surpriseScreenOpen = document.querySelector("#surprise-icon");
 const surpriseScreenClose = document.querySelector("#surprise-close");
+const imageUno = document.querySelector("#img-uno");
+const imageDos = document.querySelector("#img-dos");
+const imageTres = document.querySelector("#img-tres");
+const imageQuatro = document.querySelector("#img-quatro") // idk how to spell spanish :(
 
 function closeWindow(element) {
     element.style.display = "none";
@@ -50,3 +54,7 @@ surpriseScreenOpen.addEventListener("click", function() {
 surpriseScreenClose.addEventListener("click", function() {
   closeWindow(surpriseScreen);
 });
+
+openImage.addEventListener("click", function() {
+  openWindow()
+})
