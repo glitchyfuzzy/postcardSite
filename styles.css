@@ -52,3 +52,19 @@ body {
     cursor: pointer; 
     opacity: 0.5; 
 }
+.file-preview {
+  padding: 30px;
+}
+
+.file-preview-img {
+ padding: 20px;
+}
+
+.file-preview-img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+ }
+
+ .message-form {
+  padding: 20px;
+ }
