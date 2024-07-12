@@ -68,3 +68,10 @@ body {
  .message-form {
   padding: 20px;
  }
+
+ #github {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 20%;
+ }

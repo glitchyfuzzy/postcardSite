@@ -1,19 +1,13 @@
 const hiTxtScreen = document.querySelector("#hi-txt-window");
 const hiTxtOpen = document.querySelector("#hi-icon"); 
 const hiTxtClose = document.querySelector("#hi-close");
-const fileSelectScreen = document.querySelector("#file-select")
-const fileSelectOpen = document.querySelector("#folder");
-const fileSelectClose = document.querySelector("#file-select-close");
+const fileLinkOpen = document.querySelector("#folder");
 const leaveMessageScreen = document.querySelector("#leave-message");
 const leaveMessageOpen = document.querySelector("#message-button");
 const leaveMessageClose = document.querySelector("#leave-message-close");
 const surpriseScreen = document.querySelector("#surprise-window")
 const surpriseScreenOpen = document.querySelector("#surprise-icon");
 const surpriseScreenClose = document.querySelector("#surprise-close");
-const imageUno = document.querySelector("#img-uno");
-const imageDos = document.querySelector("#img-dos");
-const imageTres = document.querySelector("#img-tres");
-const imageQuatro = document.querySelector("#img-quatro") // idk how to spell spanish :(
 
 function closeWindow(element) {
     element.style.display = "none";
@@ -31,12 +25,8 @@ hiTxtClose.addEventListener("click", function() {
   closeWindow(hiTxtScreen);
 });
 
-fileSelectOpen.addEventListener("click", function() {
-  openWindow(fileSelectScreen);
-});
-
-fileSelectClose.addEventListener("click", function() {
-  closeWindow(fileSelectScreen);
+fileLinkOpen.addEventListener("click", function() {
+  window.open("https://drive.google.com/drive/u/0/folders/1SanyQmwUJV8SX5PeAX-BjIylLymWPg41");
 });
 
 leaveMessageOpen.addEventListener("click", function() {
@@ -54,7 +44,3 @@ surpriseScreenOpen.addEventListener("click", function() {
 surpriseScreenClose.addEventListener("click", function() {
   closeWindow(surpriseScreen);
 });
-
-openImage.addEventListener("click", function() {
-  openWindow()
-})
