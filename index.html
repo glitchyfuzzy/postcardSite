@@ -26,9 +26,10 @@
         <div class="handle">
             <img class="close" id="leave-message-close" src="x.png">
         </div>
-        <form class="message-form">
-            <label for="message-text">leave a message 💖<br><br></label>
-            <textarea rows="15" cols="25" id="message-text" for="message-text"></textarea>
+        <form class="message-form" method="POST" action="https://api.sheetmonkey.io/form/E4P2WgxEXosJj6ufh2ei5">
+            <label>leave a message 💖<br><br></label>
+            <textarea rows="15" cols="25" id="message-text" name="Message" type="text"></textarea required>
+            <input name="Name" type="text" placeholder = "type in your name" required>
             <input type="submit" value="submit here"><br>
         </form>
     </div>
@@ -39,7 +40,7 @@
         </div>
         <p>you lost the game! :3</p><!--HAHAHAHA U GOT PRANKED THAT'S ON U FOR LETTING ME GET U A POSTCARD-->
     </div>
-    <p id="github">this (terrible) site is open source! check out the templete on github here</p>
+    <p id="github">this (terrible) site is open source! check out the templete on github <a href="https://github.com/glitchyfuzzy/postcardSite">here</a></p>
 
     <script src="script.js"></script>
 </body>
