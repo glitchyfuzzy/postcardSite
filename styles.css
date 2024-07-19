@@ -69,6 +69,10 @@ window {
   padding: 20px;
  }
 
+ #leave-messabe {
+  text-align: center;
+ }
+
  #github {
   display: flex;
   flex-direction: column;
@@ -81,3 +85,4 @@ window {
   padding-bottom: 10%;
   width: 80%;
  }
+
