@@ -75,3 +75,9 @@ window {
   align-items: flex-end;
   padding-top: 20%;
  }
+
+ #rickroll {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 80%;
+ }
